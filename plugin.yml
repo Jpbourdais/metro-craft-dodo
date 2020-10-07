@@ -1,0 +1,12 @@
+name: MetroCraftDodo
+version: 1.0.0
+author: TheYoungPegasus
+main: fr.theyoungpegasus.metrocraftdodo.Main
+commands:
+  metrocd:
+    description: Sets speed for minecart.
+    usage: /metrocd <choice> <multiplier>
+permissions:
+  metrocd.cmd:
+    description: Allows to use metrocd cmd.
+    default: op
