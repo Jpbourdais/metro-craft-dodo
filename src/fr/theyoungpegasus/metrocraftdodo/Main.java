@@ -67,6 +67,7 @@ public class Main extends JavaPlugin {
         logger.info("Registering event listener");
         PluginManager pm = this.getServer().getPluginManager();
         pm.registerEvents(new MinecartListener(), this);
+        pm.registerEvents(new PlayerListener(), this);
         
         logger.info("Metro Craft Dodo is enabled uwu~");
 	}
